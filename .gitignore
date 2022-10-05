@@ -25,3 +25,10 @@ hs_err_pid*
 terget/
 
 FirstPdf.pdf
+/target/
+
+.projects
+._target
+._FirstPdf.pdf
+.project
+.settings
