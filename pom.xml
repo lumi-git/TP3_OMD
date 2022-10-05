@@ -110,8 +110,16 @@
 					</reportSet>
 				</reportSets>
 			</plugin>
+			            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-changelog-plugin</artifactId> 
+            </plugin>
 		</plugins>
 	</reporting>
 
+    <scm>
+        <connection>scm:git:git://https://github.com/lumi-git/TP3_OMD.git/repository1/monappli</connection>
+        <url>http://https://github.com/lumi-git/TP3_OMD.git/svn/monappli-web</url>
+    </scm>
 
 </project>
